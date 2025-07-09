@@ -27,11 +27,3 @@ Este site é simples, responsivo e profissional, criado com HTML e CSS para most
 
 O site está hospedado no GitHub Pages e pode ser acessado pelo link:  
 ([https://github.com/Lucascflisboa1/portfolio])
-
----
-
-## Como Usar
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/seuusuario/portfolio.git
