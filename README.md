@@ -27,3 +27,6 @@ Este site é simples, responsivo e profissional, criado com HTML e CSS para most
 
 O site está hospedado no GitHub Pages e pode ser acessado pelo link:  
 ([https://github.com/Lucascflisboa1/portfolio])
+
+
+![portfolio](https://github.com/user-attachments/assets/eaa7fe99-520f-4814-8041-0df1c06cc0ff)
