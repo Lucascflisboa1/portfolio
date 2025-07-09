@@ -26,7 +26,7 @@ Este site é simples, responsivo e profissional, criado com HTML e CSS para most
 ## Como Visualizar o Projeto
 
 O site está hospedado no GitHub Pages e pode ser acessado pelo link:  
-[https://seuusuario.github.io/portfolio](https://seuusuario.github.io/portfolio)
+([https://github.com/Lucascflisboa1/portfolio])
 
 ---
 
