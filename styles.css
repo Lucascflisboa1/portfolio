@@ -13,6 +13,12 @@ body {
   padding: 20px;
   max-width: 900px;
   margin: 0 auto;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #1a1a1a;
+  color: #eee;
 }
 
 header {
@@ -32,12 +38,36 @@ h1 {
   font-weight: 500;
 }
 
+.links {
+  margin-top: 10px;
+}
+
+.links a,
+.links button {
+  font-size: 1.2rem;
+  margin: 0 8px;
+  color: #007acc;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.links a:hover,
+.links button:hover {
+  color: #005fa3;
+}
+
 section {
   margin-bottom: 32px;
   padding: 16px;
   background: white;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: background 0.3s;
+}
+
+body.dark section {
+  background: #2a2a2a;
 }
 
 h2 {
@@ -51,6 +81,10 @@ ul {
   list-style-type: disc;
   padding-left: 20px;
   color: #333;
+}
+
+body.dark ul {
+  color: #ccc;
 }
 
 a {
@@ -67,4 +101,56 @@ footer {
   font-size: 0.9rem;
   color: #777;
   margin-top: 40px;
+}
+
+.timeline {
+  border-left: 3px solid #007acc;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-item span {
+  font-weight: bold;
+  color: #007acc;
+  display: block;
+}
+
+.timeline-item::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #007acc;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 4px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 12px;
+  }
+}
+
+#projetos ul li a {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 6px;
+  transition: color 0.3s;
+}
+
+#projetos ul li a:hover {
+  color: #005fa3;
 }
