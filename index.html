@@ -5,35 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lucas Lisboa - Portfólio</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
     <h1>Lucas Lisboa</h1>
     <p class="subtitle">Estudante Técnico em Informática | Desenvolvedor Front-end</p>
+    <div class="links">
+      <a href="mailto:lucascflisboa@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/Lucascflisboa1" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/lucas-lisboa-502219349/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="curriculo.pdf" download><i class="fas fa-file-download"></i></a>
+      <button id="darkModeToggle"><i class="fas fa-moon"></i></button>
+    </div>
   </header>
 
   <main>
     <section id="sobre">
       <h2>Sobre Mim</h2>
-      <p>Sou estudante técnico em informática, focado em desenvolvimento web e infraestrutura. Apaixonado por programação, lógica e resolução de problemas.</p>
+      <p>Sou estudante técnico em Informática com foco em desenvolvimento web e infraestrutura. Tenho paixão por resolver problemas através da lógica e da programação. Busco constantemente evoluir como desenvolvedor Front-end e contribuir com soluções modernas e eficientes.</p>
     </section>
 
     <section id="habilidades">
       <h2>Habilidades</h2>
       <ul>
-        <li>HTML5 & CSS3</li>
-        <li>JavaScript Básico</li>
-        <li>Git & GitHub</li>
+        <li>Programação basico (HTML, CSS, JavaScript e python)</li>
         <li>Lógica de Programação</li>
         <li>Redes de Computadores (básico)</li>
+        <li>Arquitetura de Computadores basico</li>
+        <li>Design de Imagens (Picsart e Canva) e Design de video (Capcut)</li>
+        <li>Instalação e Configuração de Sistemas Operacionais (Windows e Linux)</li>
       </ul>
+    </section>
+
+    <section id="formacao">
+      <h2>Formação</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>2022 -2024</span>
+          <p>Funec Riacho - Ensino Médio Integrado ao Técnico em Informática</p>
+        </div>
+        <div class="timeline-item">
+          <span>2013-2020</span>
+          <p>Ensino Fundamental - Eli Horta Costa</p>
+        </div>
+      </div>
     </section>
 
     <section id="projetos">
       <h2>Projetos</h2>
       <ul>
-        <li><a href="https://github.com/Lucascflisboa1/portfolio" target="_blank">Projeto 1 - Site Portfolio</a></li>
-        <li><a href="https://github.com/Lucascflisboa1/calculadora" target="_blank">Projeto 2 - Calculadora Simples</a></li>
+        <li>
+          <a href="https://github.com/Lucascflisboa1/portfolio" target="_blank">Portfólio Pessoal</a><br/>
+          <small>HTML, CSS | portfolio basico</small>
+        </li>
+        <li>
+          <a href="https://github.com/Lucascflisboa1/calculadora" target="_blank">Calculadora Simples</a><br/>
+          <small>HTML, CSS, JavaScript |Calculadora basica</small>
+        </li>
       </ul>
     </section>
   </main>
@@ -42,5 +71,12 @@
     <p>Contato: <a href="mailto:lucascflisboa@gmail.com">lucascflisboa@gmail.com</a></p>
     <p>&copy; 2025 Lucas Lisboa</p>
   </footer>
+
+  <script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
 </body>
 </html>
