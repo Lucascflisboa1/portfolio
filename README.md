@@ -22,11 +22,11 @@ Este site é simples, responsivo e profissional, criado com HTML e CSS para most
 - CSS3
 
 ---
-## Como Usar
+## Como Visualizar
 
-Para usar esta site, basta abrir o arquivo `index.html` em seu navegador de preferência.
+Para visualizar este site, basta abrir o arquivo `index.html` em seu navegador de preferência.
 
 Se você baixou o código-fonte como um arquivo ZIP:
-1. Extraia os arquivos.
+1. Extraia os arquivos em uma pasta.
 2. Abra o arquivo `index.html`.
 ![portfolio](https://github.com/user-attachments/assets/eaa7fe99-520f-4814-8041-0df1c06cc0ff)
