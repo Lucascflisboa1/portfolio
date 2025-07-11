@@ -29,4 +29,13 @@ Para visualizar este site, basta abrir o arquivo `index.html` em seu navegador d
 Se você baixou o código-fonte como um arquivo ZIP:
 1. Extraia os arquivos em uma pasta.
 2. Abra o arquivo `index.html`.
-![portfolio](https://github.com/user-attachments/assets/eaa7fe99-520f-4814-8041-0df1c06cc0ff)
+
+---
+
+## Como é o Site
+
+Tema Claro:
+<img width="1339" height="623" alt="1" src="https://github.com/user-attachments/assets/210b9826-13a5-4747-9770-a4e2c79b01b0" />
+
+Tema Escuro:
+<img width="1346" height="617" alt="2" src="https://github.com/user-attachments/assets/f334894e-119a-4714-a440-5fe1f83cab72" />
